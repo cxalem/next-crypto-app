@@ -17,9 +17,9 @@ const Card = (props) => {
         <div className={cardStyles.info}>
           <Image
             className={cardStyles.coinImg}
-            src="https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579"
-            height={50}
-            width={50}
+            src={props.coinImg}
+            height={45}
+            width={45}
             alt={`${props.coinName}`}
           />
           <div className={cardStyles.coinInfoContainer}>
