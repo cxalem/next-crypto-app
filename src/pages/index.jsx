@@ -47,7 +47,7 @@ export default function Home({ coins }) {
 
 const coinsPerPage = 50;
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   try {
     const response = await fetch(endPoints.coins.getCoins(coinsPerPage))
     const data = await response.json()
