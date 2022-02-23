@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAYA,AAAA,YAAY,CAAC;EARX,UAAU,EAHC,OAAO;EAIlB,OAAO,EAAE,OAAO;EAChB,aAAa,EAAE,GAAG;EAClB,KAAK,EAPM,OAAO;EAQlB,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,WAAW;CAKnB;;AAED,AAAA,UAAU,CAAC;EAZT,UAAU,EAac,GAAG;EAZ3B,OAAO,EAAE,OAAO;EAChB,aAAa,EAAE,GAAG;EAClB,KAAK,EAPM,OAAO;EAQlB,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,WAAW;CASnB",
+    "sources": [
+        "PriceChange.module.scss"
+    ],
+    "names": [],
+    "file": "PriceChange.module.css"
+}

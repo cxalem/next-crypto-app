@@ -1,0 +1,10 @@
+$font-color: #edf8f8;
+
+.marketInfo {
+  font-size: 1.4rem;
+  color: #edf8f87c;
+  font-weight: 300;
+  .marketPrice {
+    color: $font-color;
+  }
+}

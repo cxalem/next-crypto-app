@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACV,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,SAAS;EAChB,WAAW,EAAE,GAAG;CAIjB;;AAPD,AAIE,WAJS,CAIT,YAAY,CAAC;EACX,KAAK,EAPI,OAAO;CAQjB",
+    "sources": [
+        "MarketCap.module.scss"
+    ],
+    "names": [],
+    "file": "MarketCap.module.css"
+}

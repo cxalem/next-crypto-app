@@ -1,0 +1,76 @@
+$font-color: #edf8f8;
+$change-tag: #2ec621;
+
+@mixin cardContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background: #5d64f41a;
+  border-radius: 15px;
+  width: 100%;
+  max-height: 240px;
+  max-width: 545px;
+  padding: 25px;
+  &:hover {
+    background: #5deff41a;
+    transition: ease-in-out .3s;
+  }
+}
+
+@mixin tabletDesktop {
+  .card1Row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .info {
+      display: flex;
+      column-gap: 10px;
+      img.coinImg {
+        width: 35px;
+        height: 35px;
+      }
+      .coinInfoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .coinNameContainer {
+          display: flex;
+          align-items: center;
+          column-gap: 5px;
+        }
+      }
+    }
+  }
+  .card2Row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .card3Row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 240px) {
+  .container {
+    @include cardContainer();
+    @include tabletDesktop();
+  }
+}
+
+@media screen and (min-width: 555px) {
+  .container {
+    @include cardContainer();
+    @include tabletDesktop();
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    @include cardContainer();
+    @include tabletDesktop();
+  }
+}

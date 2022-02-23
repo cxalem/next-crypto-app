@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACR,WAAW,EAAE,GAAG;EAChB,KAAK,EAJM,OAAO;CAKnB;;AACD,AAAA,MAAM,CAAC;EACL,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,GAAG;CACX",
+    "sources": [
+        "Low24.module.scss"
+    ],
+    "names": [],
+    "file": "Low24.module.css"
+}

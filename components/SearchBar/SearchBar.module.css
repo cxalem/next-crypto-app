@@ -1,0 +1,166 @@
+@media screen and (min-width: 240px) {
+  .searchContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 45px;
+    border-radius: 6px;
+    background: #5d64f426;
+    -webkit-box-shadow: 0px 0px 30px #0000002a;
+            box-shadow: 0px 0px 30px #0000002a;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 20px;
+    max-width: 550px;
+  }
+  .searchContainer .searchInput {
+    background: transparent;
+    border-width: 0px;
+    font-size: 1.3rem;
+    border-radius: 6px 0 0 6px;
+    width: 100%;
+    padding: 0px 20px;
+    color: #edf8f8;
+  }
+  .searchContainer .searchInput:focus {
+    outline: 0px;
+  }
+  .searchContainer .searchInput::-webkit-input-placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchInput:-ms-input-placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchInput::-ms-input-placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchInput::placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchBtn {
+    background: #191641;
+    border-width: 0;
+    width: 50px;
+    border-radius: 0 6px 6px 0;
+  }
+  .searchContainer .searchBtn:hover {
+    background: #2d2961;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  .searchContainer .searchBtn .lupaSvg {
+    margin-top: 7px;
+    height: 2rem;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .searchContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+    border-radius: 6px;
+    background: #5d64f426;
+    -webkit-box-shadow: 0px 0px 30px #0000002a;
+            box-shadow: 0px 0px 30px #0000002a;
+    width: 100%;
+    max-width: 250px;
+    margin: 0;
+  }
+  .searchContainer .searchInput {
+    background: transparent;
+    border-width: 0px;
+    font-size: 1.3rem;
+    border-radius: 6px 0 0 6px;
+    width: 100%;
+    padding: 0px 20px;
+    color: #edf8f8;
+  }
+  .searchContainer .searchInput:focus {
+    outline: 0px;
+  }
+  .searchContainer .searchInput::-webkit-input-placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchInput:-ms-input-placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchInput::-ms-input-placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchInput::placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchBtn {
+    background: #191641;
+    border-width: 0;
+    width: 50px;
+    border-radius: 0 6px 6px 0;
+  }
+  .searchContainer .searchBtn:hover {
+    background: #2d2961;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  .searchContainer .searchBtn .lupaSvg {
+    margin-top: 7px;
+    height: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .searchContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+    border-radius: 6px;
+    background: #5d64f426;
+    -webkit-box-shadow: 0px 0px 30px #0000002a;
+            box-shadow: 0px 0px 30px #0000002a;
+    width: 100%;
+    max-width: 250px;
+    margin: 0;
+  }
+  .searchContainer .searchInput {
+    background: transparent;
+    border-width: 0px;
+    font-size: 1.3rem;
+    border-radius: 6px 0 0 6px;
+    width: 100%;
+    padding: 0px 20px;
+    color: #edf8f8;
+  }
+  .searchContainer .searchInput:focus {
+    outline: 0px;
+  }
+  .searchContainer .searchInput::-webkit-input-placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchInput:-ms-input-placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchInput::-ms-input-placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchInput::placeholder {
+    color: #edf8f848;
+  }
+  .searchContainer .searchBtn {
+    background: #191641;
+    border-width: 0;
+    width: 50px;
+    border-radius: 0 6px 6px 0;
+  }
+  .searchContainer .searchBtn:hover {
+    background: #2d2961;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+  .searchContainer .searchBtn .lupaSvg {
+    margin-top: 7px;
+    height: 2rem;
+  }
+}
+/*# sourceMappingURL=SearchBar.module.css.map */

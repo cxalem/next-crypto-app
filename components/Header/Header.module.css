@@ -1,0 +1,159 @@
+@media screen and (min-width: 240px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px 20px;
+  }
+  .header .headerInfo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .headerInfo .devamSvg {
+    height: 4.5rem;
+  }
+  .header .headerInfo .date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #5df49c26;
+    -webkit-box-shadow: 0px 0px 30px #0000002a;
+            box-shadow: 0px 0px 30px #0000002a;
+    padding: 0px 20px;
+    height: 25px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #edf8f8;
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px 60px;
+  }
+  .header .headerInfo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .headerInfo .devamSvg {
+    height: 4.5rem;
+  }
+  .header .headerInfo .date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #5df49c26;
+    -webkit-box-shadow: 0px 0px 30px #0000002a;
+            box-shadow: 0px 0px 30px #0000002a;
+    padding: 0px 20px;
+    height: 25px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #edf8f8;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px 60px;
+  }
+  .header .headerInfo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .headerInfo .devamSvg {
+    height: 4.5rem;
+  }
+  .header .headerInfo .date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #5df49c26;
+    -webkit-box-shadow: 0px 0px 30px #0000002a;
+            box-shadow: 0px 0px 30px #0000002a;
+    padding: 0px 20px;
+    height: 25px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #edf8f8;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=Header.module.css.map */

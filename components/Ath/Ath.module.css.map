@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,AAAA,WAAW,CAAC;EACX,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,SAAS;EAChB,WAAW,EAAE,GAAG;CAIjB;;AAPD,AAIE,CAJD,AAAA,WAAW,CAIV,IAAI,AAAA,YAAY,CAAC;EACf,KAAK,EAPI,OAAO;CAQjB",
+    "sources": [
+        "Ath.module.scss"
+    ],
+    "names": [],
+    "file": "Ath.module.css"
+}

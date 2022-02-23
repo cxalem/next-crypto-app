@@ -1,0 +1,66 @@
+@media screen and (min-width: 240px) {
+  .walletBtn {
+    border-width: 0px;
+    border-radius: 50px;
+    color: #EDF8F8;
+    padding: 15px 30px;
+    background: #5d65f44b;
+    -webkit-box-shadow: 0px 0px 30px #0000002a;
+            box-shadow: 0px 0px 30px #0000002a;
+    width: 100%;
+    max-width: 295px;
+    -webkit-transition: ease-in-out .2  s;
+    transition: ease-in-out .2  s;
+    margin: 0 0 0 10px;
+  }
+  .walletBtn:hover {
+    background: #5d65f483;
+    -webkit-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .walletBtn {
+    border-width: 0px;
+    border-radius: 50px;
+    color: #EDF8F8;
+    padding: 15px 30px;
+    background: #5d65f44b;
+    -webkit-box-shadow: 0px 0px 30px #0000002a;
+            box-shadow: 0px 0px 30px #0000002a;
+    width: 100%;
+    max-width: 200px;
+    -webkit-transition: ease-in-out .2  s;
+    transition: ease-in-out .2  s;
+    margin: 0 10px 0 10px;
+  }
+  .walletBtn:hover {
+    background: #5d65f483;
+    -webkit-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .walletBtn {
+    border-width: 0px;
+    border-radius: 50px;
+    color: #EDF8F8;
+    padding: 15px 30px;
+    background: #5d65f44b;
+    -webkit-box-shadow: 0px 0px 30px #0000002a;
+            box-shadow: 0px 0px 30px #0000002a;
+    width: 100%;
+    max-width: 200px;
+    -webkit-transition: ease-in-out .2  s;
+    transition: ease-in-out .2  s;
+    margin: 0 10px 0 0;
+  }
+  .walletBtn:hover {
+    background: #5d65f483;
+    -webkit-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+  }
+}
+/*# sourceMappingURL=ConnectWalletBtn.module.css.map */
