@@ -1,6 +1,6 @@
 import React from "react";
 import { LupaSvg } from "../../SvgComponents/Lupa/Lupa";
-import searchBarStyles from "./SearchBar.module.css"
+import searchBarStyles from "./SearchBar.module.css";
 import { CryptoContext } from "../../CryptoContext/CryptoContex";
 
 const SearchBar = () => {

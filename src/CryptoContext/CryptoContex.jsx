@@ -8,7 +8,6 @@ const coinsPerPage = 50;
 
 const CryptoProvider = ({ children }) => {
   const coins = useFetch(endPoints.coins.getCoins(coinsPerPage));
-  console.log(coins);
 
   //Price Format
   const formatPrice = (price) => {
@@ -23,16 +22,7 @@ const CryptoProvider = ({ children }) => {
   const onSearchValue = (e) => {
     setSearch(e.target.value);
   };
-  let searchedCoins = [];
-  if (!search.length >= 1) {
-    searchedCoins = coins;
-  } else {
-    searchedCoins = coins.filter((coin) => {
-      const coinName = coin.name.toLowerCase();
-      const searchText = search.toLowerCase();
-      return coinName.includes(searchText);
-    });
-  }
+
 
   return (
     <CryptoContext.Provider
@@ -40,7 +30,6 @@ const CryptoProvider = ({ children }) => {
         formatPrice,
         search,
         onSearchValue,
-        searchedCoins,
       }}
     >
       {children}
