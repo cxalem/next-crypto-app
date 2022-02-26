@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bannerImg from "/home/cxalem/crypto-app/public/img/wallet2.png";
+import bannerImg from "./wallet2.png";
 import { ConnectWalletBtn } from "../ConnectWalletBtn/ConnectWalletBtn";
 import bannerStyles from "./ConnectBanner.module.css";
 
