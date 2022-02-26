@@ -30,7 +30,6 @@ $font-color: #EDF8F8;
 @media screen and (min-width: 240px) {
     .walletBtn {
       @include walletBtn(295px);
-      margin: 0 0 0 10px;
     }
   }
   

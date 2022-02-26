@@ -1,3 +1,9 @@
+$font-color: #EDF8F8;
+
+@mixin titleStyle() {
+  color: $font-color;
+  font-weight: 500;
+}
 
 .cardList {
     width: 100%;
@@ -9,7 +15,11 @@
       grid-template-columns: 1fr;
       justify-items: center;
       row-gap: 20px;
-      padding: 0 20px;
+    }
+    .cardListTitle {
+      @include titleStyle();
+      margin-bottom: 2rem;
+      text-align: center;
     }
   }
   
@@ -20,7 +30,11 @@
       justify-items: center;
       column-gap: 34px;
       margin-top: 5rem;
-      padding: 0 60px;
+    }
+    .cardListTitle {
+      @include titleStyle();
+      margin-top: 5rem;
+      text-align:start;
     }
   }
   
@@ -30,7 +44,11 @@
       grid-template-columns: 1fr 1fr 1fr;
       justify-items: center;
       column-gap: 34px;
-      margin-top: 8rem;
-      padding: 0 60px;
+      margin-top: 5rem;
+    }
+    .cardListTitle {
+      @include titleStyle();
+      margin-top: 5rem;
+      text-align:start;
     }
   }

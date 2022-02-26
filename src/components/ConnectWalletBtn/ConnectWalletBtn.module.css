@@ -11,7 +11,6 @@
     max-width: 295px;
     -webkit-transition: ease-in-out .2  s;
     transition: ease-in-out .2  s;
-    margin: 0 0 0 10px;
   }
   .walletBtn:hover {
     background: #5d65f483;

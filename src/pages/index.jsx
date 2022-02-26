@@ -5,10 +5,12 @@ import { CardList } from "../components/CardList/CardList";
 import UUID from "uuidjs";
 import { CryptoContext } from "../CryptoContext/CryptoContex";
 import { endPoints } from "../services/api";
+import { ConnectBanner } from "../components/ConnectBanner/ConnectBanner";
 
 export default function Home({ coins }) {
   const { formatPrice, search } = React.useContext(CryptoContext);
 
+  //Searchbar
   let searchedCoins = [];
   if (!search.length >= 1) {
     searchedCoins = coins;
@@ -22,6 +24,7 @@ export default function Home({ coins }) {
 
   return (
     <div className={styles.container}>
+      <ConnectBanner />
       <CardList>
         {searchedCoins?.map((coin) => {
           return (

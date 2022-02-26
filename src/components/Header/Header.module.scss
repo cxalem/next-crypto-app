@@ -28,11 +28,12 @@ $font-color: #edf8f8;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20px;
+    padding: 30px 0;
     .headerInfo {
         @include headerInfo();
       .devamSvg {
         height: 4.5rem;
+        margin-right: 10px
       }
       .date {
         @include spanDate(0px);
@@ -47,7 +48,7 @@ $font-color: #edf8f8;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 60px;
+    padding: 30px 0;
     .headerInfo {
         @include headerInfo();
       .devamSvg {
@@ -66,7 +67,7 @@ $font-color: #edf8f8;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 60px;
+    padding: 30px 0;
     .headerInfo {
         @include headerInfo();
       .devamSvg {

@@ -1,6 +1,6 @@
 import headerStyles from './Header.module.css'
 import { DevamSvg } from "../../SvgComponents/DevamLogo/DevamLogo"
-import ConnectWalletBtn from '../ConnectWalletBtn/ConnectWalletBtn';
+import { ConnectWalletBtn } from '../ConnectWalletBtn/ConnectWalletBtn';
 import { SearchBar } from '../SearchBar/SearchBar';
 
 const Header = () => {

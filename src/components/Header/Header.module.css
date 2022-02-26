@@ -13,7 +13,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 30px 20px;
+    padding: 30px 0;
   }
   .header .headerInfo {
     width: 100%;
@@ -29,6 +29,7 @@
   }
   .header .headerInfo .devamSvg {
     height: 4.5rem;
+    margin-right: 10px;
   }
   .header .headerInfo .date {
     display: -webkit-box;
@@ -66,7 +67,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 30px 60px;
+    padding: 30px 0;
   }
   .header .headerInfo {
     width: 100%;
@@ -119,7 +120,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 30px 60px;
+    padding: 30px 0;
   }
   .header .headerInfo {
     width: 100%;

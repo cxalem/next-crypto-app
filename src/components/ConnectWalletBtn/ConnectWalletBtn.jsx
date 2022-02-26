@@ -8,4 +8,4 @@ const ConnectWalletBtn = () => {
   )
 }
 
-export default ConnectWalletBtn
+export { ConnectWalletBtn }

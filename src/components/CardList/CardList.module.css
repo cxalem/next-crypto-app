@@ -10,7 +10,12 @@
         grid-template-columns: 1fr;
     justify-items: center;
     row-gap: 20px;
-    padding: 0 20px;
+  }
+  .cardListTitle {
+    color: #EDF8F8;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-align: center;
   }
 }
 
@@ -24,7 +29,12 @@
     -webkit-column-gap: 34px;
             column-gap: 34px;
     margin-top: 5rem;
-    padding: 0 60px;
+  }
+  .cardListTitle {
+    color: #EDF8F8;
+    font-weight: 500;
+    margin-top: 5rem;
+    text-align: start;
   }
 }
 
@@ -37,8 +47,13 @@
     justify-items: center;
     -webkit-column-gap: 34px;
             column-gap: 34px;
-    margin-top: 8rem;
-    padding: 0 60px;
+    margin-top: 5rem;
+  }
+  .cardListTitle {
+    color: #EDF8F8;
+    font-weight: 500;
+    margin-top: 5rem;
+    text-align: start;
   }
 }
 /*# sourceMappingURL=CardList.module.css.map */

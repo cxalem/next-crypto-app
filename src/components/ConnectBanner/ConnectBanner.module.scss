@@ -1,0 +1,77 @@
+$font-color: #edf8f8;
+
+@mixin bannerLayout($title-size) {
+  .bannerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 80px;
+    max-width: 1300px;
+    background-image: linear-gradient(266.76deg, #4a72ff26 0%, #9086ff44 100%);
+    border-radius: 15px;
+    .infoContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: start;
+      align-items: flex-start;
+      .bannerTitle {
+        color: $font-color;
+        font-size: $title-size;
+      }
+    }
+    .img {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    background-size: 400%;
+    animation: change 15s ease-in-out infinite;
+  }
+}
+
+@media screen and (min-width: 240px) {
+  @include bannerLayout(3rem);
+  .bannerContainer {
+    grid-template-columns: 1fr;
+    padding: 40px 40px;
+    max-width: 540px;
+    margin: auto;
+    margin-bottom: 20px;
+    .infoContainer {
+      text-align: center;
+      align-items: center;
+      .bannerTitle {
+        margin-bottom: 15px;
+      }
+    }
+    .img {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 825px) {
+  @include bannerLayout(3.8rem);
+  .bannerContainer {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1114px) {
+  @include bannerLayout(4.3rem);
+  .bannerContainer {
+    margin: 50px 0 0 0;
+  }
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

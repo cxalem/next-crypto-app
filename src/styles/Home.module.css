@@ -114,3 +114,10 @@
     flex-direction: column;
   }
 } */
+
+.angely {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background: red;
+}
