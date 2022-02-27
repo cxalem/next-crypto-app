@@ -6,6 +6,7 @@ import UUID from "uuidjs";
 import { CryptoContext } from "../CryptoContext/CryptoContex";
 import { endPoints } from "../services/api";
 import { ConnectBanner } from "../components/ConnectBanner/ConnectBanner";
+import { LoadingDots } from "../components/LoadingDots/LoadingDots";
 
 export default function Home({ coins }) {
   const { formatPrice, search } = React.useContext(CryptoContext);

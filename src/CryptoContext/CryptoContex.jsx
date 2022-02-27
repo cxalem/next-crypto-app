@@ -1,13 +1,9 @@
 import React, { useState } from "react";
-import { useFetch } from "../CryptoContext/hooks/useFetch";
-import { endPoints } from "../services/api";
+import { useAccount, useConnect } from "wagmi";
 
 const CryptoContext = React.createContext();
 
-const coinsPerPage = 50;
-
 const CryptoProvider = ({ children }) => {
-  const coins = useFetch(endPoints.coins.getCoins(coinsPerPage));
 
   //Price Format
   const formatPrice = (price) => {
@@ -17,12 +13,32 @@ const CryptoProvider = ({ children }) => {
     }).format(price);
   };
 
+  //Truncate Strings
+  const truncateString = (str) => {
+    if (str.length > 10) {
+      return str.slice(0, 10) + "...";
+    } else {
+      return str;
+    }
+  }
+
   //Searchbar
   const [search, setSearch] = useState("");
   const onSearchValue = (e) => {
     setSearch(e.target.value);
   };
 
+  //Connect Wallet
+  const [loading, setLoading] = useState(false);
+  const [{ data: connectData }, connect] = useConnect();
+  const [{ data: accountData }, disconnect] = useAccount({
+    fetchEns: true,
+  });
+  const handleConnect = async () => {
+    setLoading(true);
+    await connect(connectData.connectors[0]);
+      setLoading(false);
+  };
 
   return (
     <CryptoContext.Provider
@@ -30,6 +46,11 @@ const CryptoProvider = ({ children }) => {
         formatPrice,
         search,
         onSearchValue,
+        accountData,
+        loading,
+        handleConnect,
+        disconnect,
+        truncateString
       }}
     >
       {children}

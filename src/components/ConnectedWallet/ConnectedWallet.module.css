@@ -1,0 +1,59 @@
+.connectedInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+.connectedInfo .addrData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(265deg, #4a72ff26 0%, #9086ff26 100%);
+  height: 35px;
+  padding: 0 0 0 18px;
+  border-radius: 5px;
+  margin-left: -10px;
+}
+
+.connectedInfo .addrData span {
+  color: #EDF8F8;
+}
+
+.connectedInfo .addrData button {
+  height: 100%;
+  margin-left: 15px;
+  background: #232B3F;
+  border-width: 0;
+  border-radius: 0 5px 5px 0;
+  padding: 0 12px 0 15px;
+  cursor: pointer;
+  -webkit-transition: ease-in-out .1s;
+  transition: ease-in-out .1s;
+}
+
+.connectedInfo .addrData button:hover {
+  background: #e60000d2;
+  -webkit-transition: ease-in-out .1s;
+  transition: ease-in-out .1s;
+}
+
+.connectedInfo .imgContainer {
+  z-index: 1;
+  background: #232B3F;
+  padding: 10px;
+  border-radius: 50px;
+  border: #EDF8F8 solid;
+  border-width: 1px;
+}
+
+.connectedInfo .imgContainer .walletImg {
+  margin-left: 2px;
+}
+/*# sourceMappingURL=ConnectedWallet.module.css.map */

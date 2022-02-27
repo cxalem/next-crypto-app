@@ -1,0 +1,43 @@
+.connectedInfo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    .addrData {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(265deg, #4a72ff26 0%, #9086ff26 100%);
+        height: 35px;
+        padding: 0 0 0 18px ;
+        border-radius: 5px;
+        margin-left: -10px;
+        span {
+            color: #EDF8F8;
+
+        }
+        button {
+            height: 100%;
+            margin-left: 15px;
+            background: #232B3F;
+            border-width: 0;
+            border-radius: 0 5px 5px 0;
+            padding: 0 12px 0 15px;
+            cursor: pointer;
+            transition: ease-in-out .1s;
+            &:hover {
+                background: #e60000d2;
+                transition: ease-in-out .1s;
+            }
+        }
+    }
+    .imgContainer {
+        z-index: 1;
+        background: #232B3F;
+        padding: 10px;
+        border-radius: 50px;
+        border: #EDF8F8 solid;
+        border-width: 1px;
+        .walletImg {
+            margin-left: 2px;
+        }
+    }
+}
