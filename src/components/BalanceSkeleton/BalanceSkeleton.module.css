@@ -1,0 +1,156 @@
+@media screen and (min-width: 240px) {
+  .titleSkeleton {
+    background: #a5a5a5;
+    -webkit-animation: shine 1.5s infinite linear;
+            animation: shine 1.5s infinite linear;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    opacity: 30%;
+    background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
+    background-size: 580px;
+  }
+  .balanceContainerSkeleton {
+    background: #a5a5a5;
+    opacity: 30%;
+    -webkit-animation: shine 1.5s infinite linear;
+            animation: shine 1.5s infinite linear;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 112px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px 60px;
+    background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
+    background-size: 580px;
+  }
+  .balanceContainerSkeleton .ethBalanceSkeleton {
+    background: #fff;
+    width: 210px;
+    height: 20px;
+  }
+  .balanceContainerSkeleton .usdBalanceSkeleton {
+    background: #fff;
+    width: 100px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .titleSkeleton {
+    background: #a5a5a5;
+    -webkit-animation: shine 1.5s infinite linear;
+            animation: shine 1.5s infinite linear;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    opacity: 30%;
+    background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
+    background-size: 580px;
+  }
+  .balanceContainerSkeleton {
+    background: #a5a5a5;
+    opacity: 30%;
+    -webkit-animation: shine 1.5s infinite linear;
+            animation: shine 1.5s infinite linear;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 112px;
+    width: 322px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px 60px;
+    background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
+    background-size: 580px;
+  }
+  .balanceContainerSkeleton .ethBalanceSkeleton {
+    background: #fff;
+    width: 210px;
+    height: 20px;
+  }
+  .balanceContainerSkeleton .usdBalanceSkeleton {
+    background: #fff;
+    width: 100px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .titleSkeleton {
+    background: #a5a5a5;
+    -webkit-animation: shine 1.5s infinite linear;
+            animation: shine 1.5s infinite linear;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    opacity: 30%;
+    background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
+    background-size: 580px;
+  }
+  .balanceContainerSkeleton {
+    background: #a5a5a5;
+    opacity: 30%;
+    -webkit-animation: shine 1.5s infinite linear;
+            animation: shine 1.5s infinite linear;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 112px;
+    width: 322px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px 60px;
+    background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
+    background-size: 580px;
+  }
+  .balanceContainerSkeleton .ethBalanceSkeleton {
+    background: #fff;
+    width: 210px;
+    height: 20px;
+  }
+  .balanceContainerSkeleton .usdBalanceSkeleton {
+    background: #fff;
+    width: 100px;
+    height: 20px;
+  }
+}
+
+@-webkit-keyframes shine {
+  0% {
+    background-position: -290px;
+  }
+  100% {
+    background-position: 290px;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: -290px;
+  }
+  100% {
+    background-position: 290px;
+  }
+}
+/*# sourceMappingURL=BalanceSkeleton.module.css.map */

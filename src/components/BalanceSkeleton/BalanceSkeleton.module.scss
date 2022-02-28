@@ -1,0 +1,107 @@
+$background-color: #a5a5a5;
+$shine-color: #cacaca;
+
+@mixin backgroundGradient() {
+  background-image: linear-gradient(
+    90deg,
+    $background-color 0px,
+    $shine-color 80px,
+    $background-color 80px
+  );
+  background-size: 580px;
+}
+
+@mixin containerSkeleton($container-width) {
+  background: $background-color;
+  opacity: 30%;
+  animation: shine 1.5s infinite linear;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 112px;
+  width: $container-width;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 20px 60px;
+}
+
+@mixin titleSkeleton() {
+  background: $background-color;
+  animation: shine 1.5s infinite linear;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  opacity: 30%;
+}
+
+@media screen and (min-width: 240px) {
+  .titleSkeleton {
+    @include titleSkeleton();
+    @include backgroundGradient();
+  }
+  .balanceContainerSkeleton {
+    @include containerSkeleton(100%);
+    @include backgroundGradient();
+    .ethBalanceSkeleton {
+      background: #fff;
+      width: 210px;
+      height: 20px;
+    }
+    .usdBalanceSkeleton {
+      background: #fff;
+      width: 100px;
+      height: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .titleSkeleton {
+    @include titleSkeleton();
+    @include backgroundGradient();
+  }
+  .balanceContainerSkeleton {
+    @include containerSkeleton(322px);
+    @include backgroundGradient();
+    .ethBalanceSkeleton {
+      background: #fff;
+      width: 210px;
+      height: 20px;
+    }
+    .usdBalanceSkeleton {
+      background: #fff;
+      width: 100px;
+      height: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .titleSkeleton {
+    @include titleSkeleton();
+    @include backgroundGradient();
+  }
+  .balanceContainerSkeleton {
+    @include containerSkeleton(322px);
+    @include backgroundGradient();
+    .ethBalanceSkeleton {
+      background: #fff;
+      width: 210px;
+      height: 20px;
+    }
+    .usdBalanceSkeleton {
+      background: #fff;
+      width: 100px;
+      height: 20px;
+    }
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: -290px;
+  }
+  100% {
+    background-position: 290px;
+  }
+}

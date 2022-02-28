@@ -4,7 +4,6 @@ import { useAccount, useConnect } from "wagmi";
 const CryptoContext = React.createContext();
 
 const CryptoProvider = ({ children }) => {
-
   //Price Format
   const formatPrice = (price) => {
     return new Intl.NumberFormat("en-EN", {
@@ -20,7 +19,7 @@ const CryptoProvider = ({ children }) => {
     } else {
       return str;
     }
-  }
+  };
 
   //Searchbar
   const [search, setSearch] = useState("");
@@ -37,7 +36,7 @@ const CryptoProvider = ({ children }) => {
   const handleConnect = async () => {
     setLoading(true);
     await connect(connectData.connectors[0]);
-      setLoading(false);
+    setLoading(false);
   };
 
   return (
@@ -50,7 +49,7 @@ const CryptoProvider = ({ children }) => {
         loading,
         handleConnect,
         disconnect,
-        truncateString
+        truncateString,
       }}
     >
       {children}

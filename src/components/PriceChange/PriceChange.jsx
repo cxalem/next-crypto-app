@@ -9,7 +9,7 @@ const PriceChange = (props) => {
         </span>
       ) : (
         <span className={priceStyles.downPrice}>
-          ▼{props.priceChange.toFixed(3)}
+          ▼{props.priceChange.toFixed(3).split('-')}
         </span>
       )}
     </>

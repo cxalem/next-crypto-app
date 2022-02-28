@@ -2,14 +2,14 @@ import styles from "../styles/Home.module.css";
 import React from "react";
 import { LazyCard } from "../components/LazyCard/LazyCard";
 import { CardList } from "../components/CardList/CardList";
-import UUID from "uuidjs";
 import { CryptoContext } from "../CryptoContext/CryptoContex";
 import { endPoints } from "../services/api";
 import { ConnectBanner } from "../components/ConnectBanner/ConnectBanner";
-import { LoadingDots } from "../components/LoadingDots/LoadingDots";
+import { Dashboard } from "../components/Dashboard/Dashboard";
+import { BalanceSkeleton } from "../components/BalanceSkeleton/BalanceSkeleton";
 
 export default function Home({ coins }) {
-  const { formatPrice, search } = React.useContext(CryptoContext);
+  const { formatPrice, search, accountData } = React.useContext(CryptoContext);
 
   //Searchbar
   let searchedCoins = [];
@@ -25,12 +25,12 @@ export default function Home({ coins }) {
 
   return (
     <div className={styles.container}>
-      <ConnectBanner />
+      {accountData ? <Dashboard /> : <ConnectBanner />}
       <CardList>
         {searchedCoins?.map((coin) => {
           return (
             <LazyCard
-              key={UUID.generate()}
+              key={coin.id}
               coinName={coin.name}
               coinSymbol={coin.symbol}
               marketCap={formatPrice(coin.market_cap)}

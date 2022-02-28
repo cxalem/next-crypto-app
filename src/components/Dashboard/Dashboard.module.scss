@@ -1,0 +1,113 @@
+$font-color: #edf8f8;
+
+@mixin titleStyle($fontSize) {
+  position: relative;
+  color: $font-color;
+  font-weight: 500;
+  font-size: $fontSize;
+  font-weight: 500;
+}
+
+@mixin balanceSize($balance-size) {
+  font-size: $balance-size;
+}
+
+@mixin balanceContainer($margin-top) {
+  width: fit-content;
+  background: linear-gradient(267deg, #4a72ff26 0%, #9086ff26 100%);
+  padding: 20px 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px #00000040;
+  margin-top: $margin-top;
+  margin-bottom: $margin-top;
+}
+
+@mixin usdSpan() {
+  color: rgba(237, 248, 248, 0.5);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 240px) {
+  .cardTitle {
+    margin-top: 0px;
+    text-align: center;
+    width: fit-content;
+    @include titleStyle(3rem);
+  }
+  .balanceContainer {
+    @include balanceContainer(20px);
+    width: 100%;
+    max-width: 545px;
+    margin-left: auto;
+    margin-right: auto;
+    span.usdBalance {
+      @include usdSpan();
+    }
+    div.balanceInfo {
+      span {
+        @include balanceSize(3rem);
+      }
+      span.cryptoBalance {
+        color: $font-color;
+      }
+      span.cryptoSymbol {
+        color: rgba(237, 248, 248, 0.5);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 825px) {
+  .cardTitle {
+    margin-top: 50px;
+    text-align:start;
+    @include titleStyle(3rem);
+  }
+  .balanceContainer {
+    @include balanceContainer(30px);
+    margin-left: 0;
+    margin-right: 0;
+    span.usdBalance {
+      @include usdSpan();
+    }
+    div.balanceInfo {
+      span {
+        @include balanceSize(3.5rem);
+      }
+      span.cryptoBalance {
+        color: $font-color;
+      }
+      span.cryptoSymbol {
+        color: rgba(237, 248, 248, 0.5);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1114px) {
+  .cardTitle {
+    margin-top: 50px;
+    text-align:start;
+    @include titleStyle(3rem);
+  }
+  .balanceContainer {
+    @include balanceContainer(30px);
+    margin-left: 0;
+    margin-right: 0;
+    span.usdBalance {
+      @include usdSpan();
+    }
+    div.balanceInfo {
+      span {
+        @include balanceSize(3.5rem);
+      }
+      span.cryptoBalance {
+        color: $font-color;
+      }
+      span.cryptoSymbol {
+        color: rgba(237, 248, 248, 0.5);
+      }
+    }
+  }
+}
