@@ -8,7 +8,7 @@ const ConnectBanner = () => {
     <div className={bannerStyles.bannerContainer}>
       <div className={bannerStyles.infoContainer}>
         <h2 className={bannerStyles.bannerTitle}>
-          Connect your wallet and preview your portfolio
+          Connect your wallet and preview your balance
         </h2>
         <ConnectWalletBtn />
       </div>

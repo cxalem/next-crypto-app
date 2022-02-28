@@ -9,6 +9,7 @@
     opacity: 30%;
     background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
     background-size: 580px;
+    margin-top: 0;
   }
   .balanceContainerSkeleton {
     background: #a5a5a5;
@@ -31,6 +32,7 @@
     padding: 20px 60px;
     background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
     background-size: 580px;
+    margin-bottom: 20px;
   }
   .balanceContainerSkeleton .ethBalanceSkeleton {
     background: #fff;
@@ -55,6 +57,7 @@
     opacity: 30%;
     background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
     background-size: 580px;
+    margin-top: 50px;
   }
   .balanceContainerSkeleton {
     background: #a5a5a5;
@@ -77,6 +80,7 @@
     padding: 20px 60px;
     background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
     background-size: 580px;
+    margin-bottom: 0;
   }
   .balanceContainerSkeleton .ethBalanceSkeleton {
     background: #fff;
@@ -101,6 +105,7 @@
     opacity: 30%;
     background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
     background-size: 580px;
+    margin-top: 50px;
   }
   .balanceContainerSkeleton {
     background: #a5a5a5;
@@ -123,6 +128,7 @@
     padding: 20px 60px;
     background-image: linear-gradient(90deg, #a5a5a5 0px, #cacaca 80px, #a5a5a5 80px);
     background-size: 580px;
+    margin-bottom: 0;
   }
   .balanceContainerSkeleton .ethBalanceSkeleton {
     background: #fff;

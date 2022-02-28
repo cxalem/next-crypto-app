@@ -38,10 +38,12 @@ $shine-color: #cacaca;
   .titleSkeleton {
     @include titleSkeleton();
     @include backgroundGradient();
+    margin-top: 0;
   }
   .balanceContainerSkeleton {
     @include containerSkeleton(100%);
     @include backgroundGradient();
+    margin-bottom: 20px;
     .ethBalanceSkeleton {
       background: #fff;
       width: 210px;
@@ -59,10 +61,12 @@ $shine-color: #cacaca;
   .titleSkeleton {
     @include titleSkeleton();
     @include backgroundGradient();
+    margin-top: 50px;
   }
   .balanceContainerSkeleton {
     @include containerSkeleton(322px);
     @include backgroundGradient();
+    margin-bottom: 0;
     .ethBalanceSkeleton {
       background: #fff;
       width: 210px;
@@ -80,10 +84,12 @@ $shine-color: #cacaca;
   .titleSkeleton {
     @include titleSkeleton();
     @include backgroundGradient();
+    margin-top: 50px;
   }
   .balanceContainerSkeleton {
     @include containerSkeleton(322px);
     @include backgroundGradient();
+    margin-bottom: 0;
     .ethBalanceSkeleton {
       background: #fff;
       width: 210px;
